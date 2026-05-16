@@ -7,7 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY models/ models/
 COPY data/ data/
 COPY *.ipynb ./
-COPY main.py .
 
 EXPOSE 8888
 
